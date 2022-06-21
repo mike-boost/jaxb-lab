@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.codays</groupId>
+    <artifactId>jaxb-lab</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ps-jaxb-01-intro</module>
+        <module>ps-jaxb-02-marshalling</module>
+        <module>ps-jaxb-03-unmarshalling</module>
+        <module>ps-jaxb-04-anno-basic</module>
+        <module>ps-jaxb-05-anno-order</module>
+        <module>ps-jaxb-06-anno-simpletypes</module>
+        <module>ps-jaxb-07-anno-enum</module>
+        <module>ps-jaxb-08-anno-lists-1</module>
+        <module>ps-jaxb-09-anno-lists-2</module>
+        <module>ps-jaxb-10-anno-maps</module>
+        <module>ps-jaxb-11-anno-adapters</module>
+        <module>ps-jaxb-12-schemagen</module>
+        <module>ps-jaxb-13-generateschema</module>
+        <module>ps-jaxb-14-xmltype</module>
+        <module>ps-jaxb-15-required</module>
+        <module>ps-jaxb-16-defaultvalue</module>
+        <module>ps-jaxb-17-nillable</module>
+        <module>ps-jaxb-18-objectfactory</module>
+        <module>ps-jaxb-19-xjc</module>
+        <module>ps-jaxb-20-bindings</module>
+        <module>ps-jaxb-21-datetime</module>
+        <module>ps-jaxb-22-enum</module>
+        <module>ps-jaxb-23-validation-1</module>
+        <module>ps-jaxb-24-validation-2</module>
+        <module>ps-jaxb-25-inheritance</module>
+        <module>ps-jaxb-26-xmlany-1</module>
+        <module>ps-jaxb-27-xmlany-2</module>
+        <module>ps-jaxb-28-binder</module>
+        <module>ps-jaxb-29-binder-moxy</module>
+        <module>ps-jaxb-30-maven-schemagen</module>
+        <module>ps-jaxb-31-maven-xjc</module>
+        <module>ps-jaxb-34-jaxws-server</module>
+        <module>ps-jaxb-35-jaxws-client</module>
+    </modules>
+
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+</project>
